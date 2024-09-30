@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.BG{
+    position: absolute;
+    top: 1px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-blend-mode: darken;
+    margin-bottom: 0;
+    
+}
+.navigation {
+    text-align: end;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.304);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    position: fixed;
+    z-index: 2;
+    top: 5px;
+}
+
+li {
+    display: inline;
+
+}
+
+a {
+    text-decoration: none;
+    padding-right: 40px;
+
+}
+
+.nav-sub {
+    margin-right: 40px;
+    background-color: rgb(158, 81, 158);
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    border: 1px;
+    border-radius: 4px;
+}
+
+.nich {
+    
+    margin-top: 750px;
+}
+
+.nich2 {
+    
+    margin-top: 25px;
+}
+
+.big {
+    position: relative;
+    z-index: 1;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 1px 4px black;
+
+}
+
+.small {
+    
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 1px 3px black;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-bottom: 300px;
+}
+
+.cont {
+    background-color: rgb(158, 81, 158);
+    color: white;
+    padding: 10px 50px 10px 50px;
+
+    font-size: 50px;
+    border: 1px;
+    border-radius: 4px;
+    float: left;
+    margin-left: 39vw;
+
+}
+
+.phone-number {
+    margin-left: 52vw;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.discover {
+    text-align: center;
+    color: purple;
+    font-size: 40px;
+
+}
+
+.latest {
+    line-height: 100px;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    
+}
+
+.mini {
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
+.card1{
+    background-color: rgba(201, 95, 201, 0.288);
+    border-radius: 25px;
+    padding: 15px;
+    border: 1px solid rgba(201, 95, 201, 0.288);
+    width: 600px;
+    height: 900px;
+    margin: 150px;
+}
+.home1{
+    border-radius: 25px;
+    overflow: none;
+    height: 40%;
+    width: 100%;
+}
