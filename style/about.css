@@ -439,6 +439,133 @@
     
     }
 
+    .p-service{
+        justify-content: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        background-color: rgba(235, 205, 235, 0.288);
+    
+    }
+    .Services {
+        color: purple;
+        padding-bottom: 8px;
+        font-size: 12px;
+    }
+    .avail{
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+    .para{
+        line-height: 15px;
+        font-size: 12px;
+    }
+    .service-card{
+        box-sizing: border-box;
+        margin: 15px;
+        padding: 20px;
+        width: 220px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .service-card2{
+        margin: 15px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: rgba(128, 128, 128, 0.482) 1px 1px 30px 0px;
+    }
+    .hr{
+        height: 1px;
+        width: 75px;
+        border: 0px;
+        background-color: purple;
+    }
+    .first{
+        font-size: 18px;
+        padding: 15px;
+    }
+    .second{
+        text-align: center;
+        font-size: 12px;
+        padding: 15px;
+    }
+    .read-more{
+        color: white;
+        border: 0px;
+        border-radius: 10px;
+        font-size: 14px;
+        padding: 8px;
+        background-color: rgb(158, 81, 158);
+    }
+    .main{
+        margin-top: 80px;
+        width: 100%;
+        height: 450px;
+        background-color: rgba(235, 205, 235, 0.288);
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .main-box{
+        width: 350px;
+    }
+    .testimo{
+        color: purple;
+        line-height: 20px;
+        text-align: center;
+    }
+    .client-say{
+        text-align: center;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .fact{
+        text-align: center;
+        font-size: 13px;
+    }
+    .said{
+        box-sizing: border-box;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        height: 250px;
+        margin: 15px;
+        padding: 6px;
+    }
+    .class{
+        width: 70px;
+        border-radius: 50px;
+        margin-top: 13px;
+    }
+    .name{
+        padding: 7px;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .owner{
+        text-align: center;
+        color: purple;
+        font-size: 11px;
+        padding-bottom: 7px;
+    }
+    .comment{
+        text-align: center;
+        padding: 15px;
+        line-height: 20px;
+        font-size: 12px;
+    }
 
 
 
@@ -740,33 +867,33 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 380px;
-        height: 280px;
+        width: 300px;
+        height: 250px;
         margin: 15px;
         padding: 6px;
     }
     .class{
-        width: 80px;
+        width: 70px;
         border-radius: 50px;
-        margin-top: 20px;
+        margin-top: 13px;
     }
     .name{
-        padding: 8px;
-        font-size: 17px;
+        padding: 7px;
+        font-size: 16px;
         font-weight: 700;
         text-align: center;
     }
     .owner{
         text-align: center;
         color: purple;
-        font-size: 12px;
-        padding-bottom: 8px;
+        font-size: 11px;
+        padding-bottom: 7px;
     }
     .comment{
         text-align: center;
-        padding: 17px;
-        line-height: 25px;
-        font-size: 13px;
+        padding: 15px;
+        line-height: 20px;
+        font-size: 12px;
     }
 
     .fa-brands{
@@ -1269,6 +1396,318 @@
     justify-content: center;
     padding-left: 200px;
     padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    background-color: rgba(235, 205, 235, 0.288);
+
+}
+.Services {
+    color: purple;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.avail{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.para{
+    line-height: 21px;
+    font-size: 15px;
+}
+.service-card{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.service-card2{
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(128, 128, 128, 0.482) 1px 1px 30px 0px;
+}
+.hr{
+    height: 2px;
+    width: 85px;
+    border: 0px;
+    background-color: purple;
+}
+.first{
+    font-size: 20px;
+    padding: 20px;
+}
+.second{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+.read-more{
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(158, 81, 158);
+}
+.main{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(235, 205, 235, 0.288);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.main-box{
+    width: 500px;
+}
+.testimo{
+    color: purple;
+    line-height: 35px;
+    text-align: center;
+}
+.client-say{
+    text-align: center;
+    font-size: 40px;
+    line-height: 70px;
+}
+.fact{
+    text-align: center;
+    font-size: 17px;
+}
+.said{
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    margin: 15px;
+    padding: 10px;
+}
+.class{
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 35px;
+}
+.name{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.owner{
+    text-align: center;
+    color: purple;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.comment{
+    text-align: center;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+    .fa-brands{
+        box-sizing: border-box;
+        margin: 10px;
+        font-size: 20px;
+        padding: 0;
+        border: 1px;
+        height: 30px;
+        width: 30px;
+        border-radius: 8px;
+        text-align: center;
+        padding-top: 5.8px;
+        background-color: rgb(90, 87, 87);
+        
+    }
+    .fa-facebook-f:hover{
+        background-color: rgb(24, 119, 242);
+        transform: scale(1.3);
+        transition: all 0.1s ease-in-out 0s;
+    }
+    .fa-twitter:hover{
+        background-color: rgb(29, 161, 242);
+        transform: scale(1.3);
+        transition: all 0.1s ease-in-out 0s;
+    }
+    .fa-instagram:hover{
+        background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+        transform: scale(1.3);
+        transition: all 0.1s ease-in-out 0s;
+    }
+    .fa-whatsapp:hover{
+        background-color: #25d366;
+        transform: scale(1.3);
+        transition: all 0.3s ease-in-out 0s;
+    }
+    .footer{
+        width: 100%;
+        height: 330px;
+        /* background-color: rgb(23, 25, 42); */
+        background-color: #5b638b;
+        color: white;
+        padding: 80px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .hd{
+        color: rgb(188, 210, 254);
+        line-height: 33px;
+        font-size: 16px;
+    }
+    .jj{
+        font-size: 14px;
+    }
+    .footer-content{
+        width: 270px;
+        margin-right: 70px
+    }
+    .quick{
+        width: 85px;
+        margin-right: 70px;
+    }
+    .twit{
+        width: 180px;
+        margin-right: 70px
+    }
+    .div{
+        display: flex;
+        justify-content: center;
+    }
+    .details{
+        box-sizing: border-box;
+        background-color: #534f8b;
+        height: 72px;
+        width: 240px;
+        margin: 0 20px 0 20px;
+        position: relative;
+        top: 45px;
+        color: white;
+        padding: 20px;
+    }
+    .pu{
+        color: #b8b3f9;
+        font-size: 17px;
+        
+    }
+    .ni{
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .footer{
+        line-height: 25px;
+    }
+    .line{
+        line-height: 23px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+    .twit{
+        line-height: 20px;
+    }
+    .date{
+        color: #0f0a54;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .copy{
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        background-color: #481b7c;
+        padding-top: 22px;
+        height: 45px;
+    }
+
+}
+
+@media screen and (min-width:1750px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+        /* color: white; */
+    }
+    body{
+        background-color: rgba(246, 240, 240, 0.727);
+    }
+    .BG{
+        position: absolute;
+        top: 1px;
+        z-index: -1;
+        height: 640px;
+        width: 100%;
+        background-blend-mode: darken;
+        margin-bottom: 0;
+        
+    }
+    .logo{
+        margin-left: 30px;
+        width: 120px;
+        height: 60px;
+        position: fixed;
+        top: 3px;
+        z-index: 3;
+        mix-blend-mode:darken;
+    
+    }
+    .navigation {
+        line-height: 25px;
+        text-align: end;
+        height: 20px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.819);
+        padding-top: 8px;
+        padding-bottom: 20px;
+        font-size: 16px;
+        position: fixed;
+        z-index: 2;
+        top: 5px;
+    }
+    
+    li {
+        display: inline;
+    
+    }
+    
+    a {
+        text-decoration: none;
+        padding-right: 10px;
+        color: black;
+    
+    }
+    
+    .nav-sub {
+        margin-right: 20px;
+        background-color: rgb(158, 81, 158);
+        color: white;
+        padding: 8px;
+        font-size: 15px;
+        border: 1px;
+        border-radius: 10px;
+    }
+    
+    .p-service{
+    justify-content: center;
+    padding-left: 350px;
+    padding-right: 350px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
